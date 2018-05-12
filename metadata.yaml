@@ -1,0 +1,41 @@
+_repo: The-King-s-Daughter-and-Other-Stories-for-Girls_13126
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Various
+    alias: Verschillende
+    gutenberg_agent_id: '116'
+    url: http://www.gutenberg.org/2009/agents/116
+description: ''
+gutenberg_issued: '2004-08-06'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '13126'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Children''s stories'
+- !lcsh 'Girls -- Conduct of life -- Juvenile fiction'
+- !lcc 'PZ'
+- !lcsh 'Christian life -- Juvenile fiction'
+tableOfContents: 'The King''s Daughter -- The Old Brown House -- A Story for School
+  Girls -- What One Lie Did -- Two Ways of Reading the Bible -- Courtesy to Strangers
+  -- Live for Something -- Jennie Browning -- Past and Future -- Anna''s Difficulty
+  -- Company Manners -- Confide In Mother -- They Took Me In -- The Little Sisters
+  -- A Valuable Secret -- Telling Mother -- A Story of School Life -- How Bess Managed
+  Tom -- A Little Girl''s Thoughts -- Careless Gracie''s Lesson -- Vicarious Punishment
+  -- Patty''s Secret -- Mopsey''s Mistake -- A Girl''s Song -- Carrie''s Marks --
+  Susie''s Prayer -- The Stolen Orange -- Wee Janet''s Problem -- Bertha''s Grandmother
+  -- Putting Off Till To-morrow -- Nothing Finished -- What''s The Use -- Susy Diller''s
+  Christmas Feast -- The Barn That Blossomed -- I Shall Not Want -- How Dorothy Helped
+  the Angel -- One Girl''s Influence -- Two Kinds of Service -- Duty and Pleasure
+  -- The Dangerous Door -- The Golden Windows -- Trust Always: Never Fret -- The New
+  Life -- The Impossible Yesterday -- A Child''s Puzzle -- How She Showed She Was
+  Sorry.'
+title: The King's Daughter and Other Stories for Girls
+url: http://www.gutenberg.org/ebooks/13126
