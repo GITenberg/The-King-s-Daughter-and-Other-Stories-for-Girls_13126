@@ -1,206 +1,176 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
   <pgterms:ebook rdf:about="ebooks/13126">
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13126.kindle.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/13126"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T16:38:36.825723</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2654236</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N532d0abfef1a4093a38e8f1b711bfaf9">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N0c95a4fc5f5643839cf8ad390885825c">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>PZ</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="Nd26a1d87f8b846b995a7dc9dc3c40802">
-        <rdf:value>Text</rdf:value>
+      <rdf:Description rdf:nodeID="N4db7823e57594eeeb969dde23647393c">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/13126/13126-h/13126-h.htm">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">307277</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13126.kindle.images">
         <dcterms:isFormatOf rdf:resource="ebooks/13126"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf10d816da9d74f82bce3d3d500ca0dab">
+          <rdf:Description rdf:nodeID="N0eac90170f0b4d68b9521f5e6cd9d28c">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-08-06T20:11:38</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T01:40:16.153913</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11348352</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/13126/13126-h.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/13126"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1809909</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ned8e18c545ff4db8b552220966e6d4d6">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N77af2765421245feabadaae4505924ce">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-08-06T20:14:30</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/13126"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Nc8ae539ea4b34bed9133182b5f8ee9a8">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13126.epub.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2590809</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/13126"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N0c4e8f62177b40b0a30ca2d1d205d797">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T16:38:31.712846</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13126.kindle.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/13126"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfdd7538481c843318555e994f1ab0982">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">209932</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T16:38:33.402169</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:title>The King's Daughter and Other Stories for Girls</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/13126/13126.txt">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">263171</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/13126"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N8f144138e89c40268da9041e8078ee2d">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-08-06T19:30:10</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13126.txt.utf-8">
-        <dcterms:isFormatOf rdf:resource="ebooks/13126"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T16:38:16.030548</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">263171</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N0571af765b6a4cb7915b3f583ab4d3d6">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-08-06</dcterms:issued>
-    <dcterms:tableOfContents>The King's Daughter -- The Old Brown House -- A Story for School Girls -- What One Lie Did -- Two Ways of Reading the Bible -- Courtesy to Strangers -- Live for Something -- Jennie Browning -- Past and Future -- Anna's Difficulty -- Company Manners -- Confide In Mother -- They Took Me In -- The Little Sisters -- A Valuable Secret -- Telling Mother -- A Story of School Life -- How Bess Managed Tom -- A Little Girl's Thoughts -- Careless Gracie's Lesson -- Vicarious Punishment -- Patty's Secret -- Mopsey's Mistake -- A Girl's Song -- Carrie's Marks -- Susie's Prayer -- The Stolen Orange -- Wee Janet's Problem -- Bertha's Grandmother -- Putting Off Till To-morrow -- Nothing Finished -- What's The Use -- Susy Diller's Christmas Feast -- The Barn That Blossomed -- I Shall Not Want -- How Dorothy Helped the Angel -- One Girl's Influence -- Two Kinds of Service -- Duty and Pleasure -- The Dangerous Door -- The Golden Windows -- Trust Always: Never Fret -- The New Life -- The Impossible Yesterday -- A Child's Puzzle -- How She Showed She Was Sorry.</dcterms:tableOfContents>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</pgterms:downloads>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/13126/13126.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/13126"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-08-06T19:30:10</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101295</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N49920fc51f1243fea850ba769c1e4db3">
+          <rdf:Description rdf:nodeID="N88d9c3ab860e4e5296d35aef2cdbb635">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1194a95525024dd3b2f7301b9e3242d2">
+          <rdf:Description rdf:nodeID="N4701d9d17d884773a6aefaad13e0b87d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nc8356d0f641a48368871f7cc08fffa5a">
-        <rdf:value>Children's stories</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13126.plucker">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">157199</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N799747bba914496ca5c82bb53625cc8e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T12:20:37.409936</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/13126"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N5b7237fc4d1d4fefbd02f84949a5b3b7">
+      <rdf:Description rdf:nodeID="Nda85ce1fd65543b9a323cbe3941c8057">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Girls -- Conduct of life -- Juvenile fiction</rdf:value>
       </rdf:Description>
     </dcterms:subject>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13126.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T01:40:12.898981</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/13126"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T16:38:29.626951</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N6443f9c8e6c7427a87ccc626c3243d98">
+          <rdf:Description rdf:nodeID="Na69e4dca5d4541bebb55b76de0330a70">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125970</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118097</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/13126/13126-h/13126-h.htm">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N570cb034a06647a7833a083e606c3150">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/13126"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">307277</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-08-06T20:11:38</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N3839771a81124f498743872e40ccd701">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      <rdf:Description rdf:nodeID="N4c8e4d4a33aa421aa5f658ea52da424b">
         <rdf:value>Christian life -- Juvenile fiction</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N8515c75046824aa2a2b20185ae9a0adf">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PZ</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13126.qioo">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13126.rdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12495</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:09:59.041335</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/13126"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nde8bc2418b0a46babb2317c1b7509684">
+          <rdf:Description rdf:nodeID="N28e071476e2d442b80f1f9452cb0d45b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">163077</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T12:20:17.032342</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</pgterms:downloads>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-08-06</dcterms:issued>
+    <dcterms:tableOfContents>The King's Daughter -- The Old Brown House -- A Story for School Girls -- What One Lie Did -- Two Ways of Reading the Bible -- Courtesy to Strangers -- Live for Something -- Jennie Browning -- Past and Future -- Anna's Difficulty -- Company Manners -- Confide In Mother -- They Took Me In -- The Little Sisters -- A Valuable Secret -- Telling Mother -- A Story of School Life -- How Bess Managed Tom -- A Little Girl's Thoughts -- Careless Gracie's Lesson -- Vicarious Punishment -- Patty's Secret -- Mopsey's Mistake -- A Girl's Song -- Carrie's Marks -- Susie's Prayer -- The Stolen Orange -- Wee Janet's Problem -- Bertha's Grandmother -- Putting Off Till To-morrow -- Nothing Finished -- What's The Use -- Susy Diller's Christmas Feast -- The Barn That Blossomed -- I Shall Not Want -- How Dorothy Helped the Angel -- One Girl's Influence -- Two Kinds of Service -- Duty and Pleasure -- The Dangerous Door -- The Golden Windows -- Trust Always: Never Fret -- The New Life -- The Impossible Yesterday -- A Child's Puzzle -- How She Showed She Was Sorry.</dcterms:tableOfContents>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/13126/13126.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/13126"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101295</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N02785f9df2be4a57936168e2f220169a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-08-06T19:30:10</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc9ba8761ad974c55b10e730040c4a869">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>The King's Daughter and Other Stories for Girls</dcterms:title>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13126.epub.images">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N14a337e72bdb4615b72d244cda5a0be2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T01:40:12.570007</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/13126"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5058860</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N5396e85905284233a7a1a4c2d5a8a5f2">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13126.txt.utf-8">
+        <dcterms:isFormatOf rdf:resource="ebooks/13126"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">263172</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd99636163f4a456980f0e92ef4625a2d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T01:40:11.569009</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/13126/13126.txt">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">263171</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-08-06T19:30:10</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/13126"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nede6c01b27444ac498d7b063e2ded03a">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:creator>
@@ -209,9 +179,29 @@
         <pgterms:alias>Verschillende</pgterms:alias>
       </pgterms:agent>
     </dcterms:creator>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N2e063d08bd864c7c889f18254ff0affc">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Children's stories</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/13126.kindle.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">513265</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5648fb0782a24997af002f7c329bed6e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/13126"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T01:40:17.382896</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
 </rdf:RDF>
